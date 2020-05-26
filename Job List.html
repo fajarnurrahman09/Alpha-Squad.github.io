@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>alpha squad</title>
+        <style>
+          body{
+            background-image: url("1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <nav class="nav-wraper black">
+            <div class="logoalpha hide-on-med-and-up">
+              <img src="logoalpha.png">
+          </div>
+            <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="#">Member List</a></li>
+                <li><a href="#">Message</a></li>
+                <li><a href="info.html">Info</li>
+                <li><a href="#FAQ">FAQ</li>
+                
+            </ul>
+            <dev class="button">
+              <a href="LoginAS.html" class="right waves-effect waves-light btn" id="Regis">Login & Register</a>
+            </dev>
+        </nav>
+
+        <div class="bck2">
+          <div id="header">
+            <center> 
+                <img src="logoalpha.png" alt="logo Alpha" width="250" height="250" style= "margin-bottom: -100px;">
+                <h1>ALPHA SQUAD</h1>
+            </center>
+          </div>
+
+            <div class="edit-profile center-block" style="padding-bottom: 20px; margin-top: 20px; width: 500px;">
+                <div class="col s12 m4 offset-m1">
+                    <div class="card" style="border-radius: 0px;">
+                        <div class="card-image black">
+                            <img src="image/boby.jpg" style="width: 200px; margin: auto;" class="circle">
+                            <a data-target="modal-edit" class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"><i class="material-icons">edit</i></a>
+                        </div>
+                        <div class="card-content font-fira black white-text">
+                            <p style="font-weight: bold; text-align: center;">Manager</p>
+                            <p id="username">Username: boby cool</p>
+                            <p id="name-2">Name: boby cool</p>
+                            <p id="nik">email: bobyc@gmail.com</p>
+                            <p id="address">Rank: S</p>
+                            <p id="phone">Point: 40000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gray">
+              <div class="col s12 center-align " style="position:relative;">
+                  <div class="row">
+                      <h3 id="Job-List">Job List</h3>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="row scrollspy gray" id="jobs">
+            <div class="col s12 m3">
+                <div class="card black z-depth-3">
+                    <div class="card-content white-text font-fira">
+                        <span class="card-title center-align" style="font-size: 22px;">Kill 100 Enemy</span>
+                        <p style="font-family: Georgia; opacity: 80%;">Kill 100 enemy heroes who are in Penalty Zone in total.</p>
+                        <p style="margin-top: 10px;">Rank required: <span style="color: yellow;">S</span></p>
+                        <p>Prize: <span style="color: yellow;">500</span></p>
+                        <p>Time limit: <span style="color: yellow;">24 hours</span></p>
+                        <span class="button-take" style="display: block; margin: 0px 15px; margin-top: 15px;">Take</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card black z-depth-3">
+                    <div class="card-content white-text font-fira">
+                        <span class="card-title center-align" style="font-size: 22px;">Solidarity</span>
+                        <p style="font-family: Georgia; opacity: 80%;">Team up with me and win 2 matches. Fight them all</p>
+                        <p style="margin-top: 10px;">Rank required: <span style="color: yellow;">A</span></p>
+                        <p>Prize: <span style="color: yellow;">100</span></p>
+                        <p>Time limit: <span style="color: yellow;">12 hours</span></p>
+                        <span class="button-take" style="display: block; margin: 0px 15px; margin-top: 15px;">Take</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card black z-depth-3">
+                    <div class="card-content white-text font-fira">
+                        <span class="card-title center-align" style="font-size: 22px;">Defeat Invaders</span>
+                        <p style="font-family: Georgia; opacity: 80%;">Use enhanced basic attacks gained from the Passive.</p>
+                        <p style="margin-top: 10px;">Rank required: <span style="color: yellow;">B</span></p>
+                        <p>Prize: <span style="color: yellow;">299</span></p>
+                        <p>Time limit: <span style="color: yellow;">12 hours</span></p>
+                        <span class="button-take" style="display: block; margin: 0px 15px; margin-top: 15px;">Take</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card black z-depth-3">
+                    <div class="card-content white-text font-fira">
+                        <span class="card-title center-align" style="font-size: 22px;">Defend Invasion</span>
+                        <p style="font-family: Georgia; opacity: 80%;">Win a match while the First Blood is achieved by the enemy team.</p>
+                        <p style="margin-top: 10px;">Rank required: <span style="color: yellow;">C</span></p>
+                        <p>Prize: <span style="color: yellow;">300</span></p>
+                        <p>Time limit: <span style="color: yellow;">12 hours</span></p>
+                        <span class="button-take" style="display: block; margin: 0px 15px; margin-top: 15px;">Take</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">ALPHAS AQUAD</h5>
+                <p class="white-text text-lighten-4">we work in the dark, to serve the light. we are assassin.</p>
+              </div>
+  
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Text
+            <a class="white-text text-lighten-4 right" href="#!">jln.surrender No 99, kec.crysis, kota assassin</a>
+            </div>
+          </div>
+        </footer>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/admin.js"></script>         
+      </div>
+    </body>
